@@ -161,8 +161,6 @@ footer #contact{
 }
 .cards .card .card-header{
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
 }
 .cards .card card-body p{
     margin-top: -10px;
