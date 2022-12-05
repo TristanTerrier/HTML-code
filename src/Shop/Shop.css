@@ -146,4 +146,11 @@ footer #contact{
     justify-content: center;
 }
 
+/*toutes les cartes*/
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+}
+/*fin des cartes*/
+
 /*fin de section principal*/
