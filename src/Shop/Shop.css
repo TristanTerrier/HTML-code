@@ -164,7 +164,7 @@ footer #contact{
     flex-wrap:wrap;
     justify-content: space-between;
 }
-.cards .card card-body{
+.cards .card card-body p{
     margin-top: -10px;
 }
 /*fin des cartes*/
