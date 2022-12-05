@@ -169,4 +169,16 @@ footer #contact{
 }
 /*fin des cartes*/
 
+/*video de presentation */
+.main .video{
+    margin-top: 80px;
+    width: 90%;
+}
+.main .video iframe{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+/*fin de video de presentation*/
+
 /*fin de section principal*/
