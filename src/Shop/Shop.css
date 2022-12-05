@@ -158,6 +158,9 @@ footer #contact{
 .cards .card img{
     width: 350px;
 }
+.cards .card .card-header{
+    display: flex;
+}
 /*fin des cartes*/
 
 /*fin de section principal*/
