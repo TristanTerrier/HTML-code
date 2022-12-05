@@ -151,22 +151,22 @@ footer #contact{
 .cards{
     display:flex;
     flex-wrap:wrap;
-  }
-  .cards .card{
+}
+.cards .card{
     margin-right: 20px;
     cursor:pointer;
-  }
-  .cards .card img{
+}
+.cards .card img{
     width: 350px;
-  }
-  .cards .card .card-header{
+}
+.cards .card .card-header{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-  }
-  .cards .card .card-body p{
+}
+.cards .card .card-body p{
     margin-top: -10px;
-  }
+}
 /* Fin de toutes les cartes */
 
 /* Video de présentation */
