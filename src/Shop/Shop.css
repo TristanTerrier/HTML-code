@@ -135,3 +135,15 @@ footer #contact{
         padding: 30px;   
     }
 }
+
+
+/*section principal */
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*fin de section principal*/
