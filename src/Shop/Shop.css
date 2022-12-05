@@ -151,6 +151,13 @@ footer #contact{
     display:flex;
     flex-wrap:wrap;
 }
+.cards .card{
+    margin-right:20px;
+    cursor: pointer;
+}
+.cards .card img{
+    width: 350px;
+}
 /*fin des cartes*/
 
 /*fin de section principal*/
