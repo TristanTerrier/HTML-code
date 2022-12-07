@@ -52,7 +52,7 @@ header {
 }
 button:hover {
     background-color: transparent;
-    border: 2px solid transparent;
+    border: 2px solid #f9004d;;
 }
 
 .service{
