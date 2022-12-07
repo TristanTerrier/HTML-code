@@ -57,6 +57,49 @@ button:hover {
 
 /* Fin Header */
 
+/* Tête de Page */
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://c8.alamy.com/compfr/2hx49ph/hacker-voler-des-donnees-donnees-numeriques-abstraites-sur-fond-d-ecran-noir-concept-de-cyber-securite-du-systeme-en-attaque-ecran-d-ordinateur-avec-hac-2hx49ph.jpg');
+    background-size: cover;
+    color: #edf0f1;
+    padding: 40px;
+    border-bottom:solid 5px #0088a9;
+}
+.titre h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    background: none;
+}
+.titre h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #edf0f1;
+    background: none;
+}
+.titre button{
+    padding: 10px 20px;
+    background-color: rgba(0,136,169,1);
+    color: #edf0f1;
+    border:none;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.titre button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+/* Fin Tête de Page */
+
 
 .service{
     background: #101010;
