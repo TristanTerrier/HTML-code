@@ -44,7 +44,8 @@ header {
 .cta button{
     margin-left: 20px;
     padding: 9px 25px;
-    color: #f9004d;
+    color: white;
+    background-color: #f9004d;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -52,7 +53,7 @@ header {
 }
 button:hover {
     background-color: transparent;
-    border: 2px solid #f9004d;;
+    border: 2px solid #f9004d;
 }
 
 /* Fin Header */
@@ -68,7 +69,7 @@ button:hover {
     background-size: cover;
     color: #edf0f1;
     padding: 40px;
-    border-bottom:solid 5px #0088a9;
+    border-bottom:solid 5px #f9004d;
 }
 .titre h1{
     font-family: 'Playfair Display', serif;
