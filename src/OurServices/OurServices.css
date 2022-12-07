@@ -86,7 +86,7 @@ button:hover {
 }
 .titre button{
     padding: 10px 20px;
-    background-color: rgba(0,136,169,1);
+    background-color: #f9004d;
     color: #edf0f1;
     border:none;
     outline:none;
@@ -97,7 +97,7 @@ button:hover {
     transition: all 0.3s ease 0s;
 }
 .titre button:hover {
-    background-color: rgba(0,136,169,0.8);
+    background-color: #ca0342;
 }
 
 /* Fin Tête de Page */
