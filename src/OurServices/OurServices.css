@@ -20,7 +20,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 5%;
-    border-bottom:solid 5px #0088a9;
+    border-bottom:solid 5px #f9004d;
     background-color: #24252a;
 }
 .logo {
@@ -51,7 +51,8 @@ header {
     transition: all 0.3s ease 0s;
 }
 button:hover {
-    color: #f9004d;
+    background-color: transparent;
+    border: 2px solid transparent;
 }
 
 .service{
