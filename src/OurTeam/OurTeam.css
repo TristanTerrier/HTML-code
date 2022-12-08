@@ -105,6 +105,9 @@ button:hover {
 
 /* Fin Tête de Page */
 
+
+/* debut */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&display=swap');
 *
 {
@@ -113,7 +116,7 @@ button:hover {
    box-sizing: border-box;
    font-family: "Poppins",sans-serif;
 }
-body
+.main
 {
    display: flex;
    justify-content: center;
@@ -218,3 +221,5 @@ body
 {
    color: #e91e63;
 }
+
+/* fin */
