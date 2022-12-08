@@ -1,67 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-html{
-    scroll-behavior: smooth;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Header */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
 }
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Montserrat', sans-serif;
-}
-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 5px solid #6f6f6f;
-}
-nav h1{
-    color: #717171;
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
-}
-nav .onglets{
-    margin-top: 3px;
-    margin-left: 300px;
-}
-nav .onglets a{
+li, .nav_link, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
     text-decoration: none;
-    color: #000;
-    margin-right: 10px;
-    border-bottom: 1px solid #000;
-    padding-bottom: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    border-bottom:solid 5px #f9004d;
+    background-color: #24252a;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    color: #edf0f1;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #f9004d;
+}
+.cta button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    color: white;
+    background-color: #f9004d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
 }
 
-header{
+/* Fin Header */
+
+/* Tête de Page */
+
+
+.titre{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: url('https://c8.alamy.com/compfr/2hx49ph/hacker-voler-des-donnees-donnees-numeriques-abstraites-sur-fond-d-ecran-noir-concept-de-cyber-securite-du-systeme-en-attaque-ecran-d-ordinateur-avec-hac-2hx49ph.jpg');
     background-size: cover;
-    color: #fff;
+    color: #edf0f1;
     padding: 40px;
+    border-bottom:solid 5px #f9004d;
 }
-header h1{
+.titre h1{
     font-family: 'Playfair Display', serif;
     font-size: 50px;
+    background: none;
 }
-header h4{
-    margin-top: -20px;
+.titre h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
     font-size: 20px;
     text-align: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #edf0f1;
+    background: none;
 }
-header button{
+.titre button{
     padding: 10px 20px;
-    background-color: #fff;
-    color:#000;
+    background-color: #f9004d;
+    color: #edf0f1;
     border:none;
-    margin-bottom: 30px;
     outline:none;
     font-size: 20px;
     font-family: 'Playfair Display', serif;
+    border-radius: 50px;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
+.titre button:hover {
+    background-color: #ca0342;
+}
+
+/* Fin Tête de Page */
 
 .main{
     margin-top: 40px;
@@ -87,51 +130,83 @@ header button{
     margin-top: 5px;
 }
 
-footer{
-    margin-top: 40px;
-    border-top: 5px solid #6f6f6f;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    padding: 30px 100px;;
+/* Section principale */
+
+.main{
+  margin: 20px;
+  margin-top: 80px;
+  margin-left: 60px;
+  display:flex;
+  flex-direction:initial;
+  justify-content:center;
+  align-items:center;
 }
-footer h1{
-    font-family: 'Playfair Display', serif;
-    border-bottom: 1px solid white;
-    width: 20%;
-    padding-bottom: 5px;
-}
-footer .services{
-    margin-top: -10px;
+/* Toutes les cartes */
+.cards{
     display:flex;
     flex-wrap:wrap;
 }
-footer .services .service{
-    margin-right: 30px;
+.cards .card{
+    margin-right: 20px;
+    cursor:pointer;
 }
-footer .services .service p{
-    max-width: 300px;
+.cards .card img{
+    width: 350px;
 }
-footer #contact{
-    color: rgb(181, 181, 181);
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+.cards .card .card-body p{
+    margin-top: -10px;
+}
+/* Fin de toutes les cartes */
 
-@media screen and (max-width:680px){
-    nav .onglets {
-        margin-left: 0px;
-        margin-bottom: 20px;
-    }
-    .main .card {
-        margin: 10px;
-    }
-    .main .content .card .right img{
-        height:200px;
-        width: 100%;
-        margin-top: -0px;
-    }
-    .main .content .card{
-        display: block;
-    }
-    footer{
-        padding: 30px;
-    }
+/* Video de présentation */
+.video{
+  margin-top: 80px;
+  width: 90%;
 }
+.video iframe{
+  border:none;
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+  margin-left: 70px;
+}
+/* Fin de la vidéo de présentation */
+/* Fin de la section principale */
+
+/* Pied de page */
+footer {
+  margin-top: 100px;
+  background-color: #000;
+  padding: 30px;
+  color: #fff;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+footer .social-media{
+  display: flex;
+}
+footer .social-media p{
+  margin-right: 15px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding: 5px;
+  text-align:center;
+  width: 20px;
+  cursor:pointer;
+}
+/* Fin du pied de page */
+
+@media screen and (max-width: 640px){
+    nav .onglets .link, nav h1{
+      display:none;
+    }
+    .cards .card img{
+      width: 300px;
+    }
+  }

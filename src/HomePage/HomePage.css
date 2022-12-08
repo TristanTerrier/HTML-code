@@ -1,74 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-html{
-    scroll-behavior: smooth;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Montserrat', sans-serif;
+/* Header */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
 }
-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 5px solid #6f6f6f;
-}
-nav h1{
-    color: #717171;
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
-}
-nav .onglets{
-    margin-top: 3px;
-    margin-left: 300px;
-}
-nav .onglets a{
+li, .nav_link, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
     text-decoration: none;
-    color: #000;
-    margin-right: 10px;
-    border-bottom: 1px solid #000;
-    padding-bottom: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+    border-bottom:solid 5px #f9004d;
+    background-color: #24252a;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    color: #edf0f1;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #f9004d;
+}
+.cta button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    color: white;
+    background-color: #f9004d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
 }
 
-header{
+/* Fin Header */
+
+/* Tête de Page */
+
+
+.titre{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: url('https://c8.alamy.com/compfr/2hx49ph/hacker-voler-des-donnees-donnees-numeriques-abstraites-sur-fond-d-ecran-noir-concept-de-cyber-securite-du-systeme-en-attaque-ecran-d-ordinateur-avec-hac-2hx49ph.jpg');
     background-size: cover;
-    color: #fff;
+    color: #edf0f1;
     padding: 40px;
+    border-bottom:solid 5px #f9004d;
 }
-header h1{
+.titre h1{
     font-family: 'Playfair Display', serif;
     font-size: 50px;
+    background: none;
 }
-header h4{
-    margin-top: -20px;
+.titre h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
     font-size: 20px;
     text-align: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #edf0f1;
+    background: none;
 }
-header button{
+.titre button{
     padding: 10px 20px;
-    background-color: #fff;
-    color:#000;
+    background-color: #f9004d;
+    color: #edf0f1;
     border:none;
-    margin-bottom: 30px;
     outline:none;
     font-size: 20px;
     font-family: 'Playfair Display', serif;
+    border-radius: 50px;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.titre button:hover {
+    background-color: #ca0342;
 }
 
+/* Fin Tête de Page */
+
+/* Texte */
+
 .main{
-    margin-top: 40px;
+    border-top: 40px solid #24252a;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #24252a;
 }
 .main .content .card{
     display: flex;
@@ -88,33 +133,7 @@ header button{
     margin-top: 5px;
 }
 
-footer{
-    margin-top: 40px;
-    border-top: 5px solid #6f6f6f;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    padding: 30px 100px;;
-}
-footer h1{
-    font-family: 'Playfair Display', serif;
-    border-bottom: 1px solid white;
-    width: 20%;
-    padding-bottom: 5px;
-}
-footer .services{
-    margin-top: -10px;
-    display:flex;
-    flex-wrap:wrap;
-}
-footer .services .service{
-    margin-right: 30px;
-}
-footer .services .service p{
-    max-width: 300px;
-}
-footer #contact{
-    color: rgb(181, 181, 181);
-}
+
 
 @media screen and (max-width:680px){
     nav .onglets {
@@ -132,7 +151,57 @@ footer #contact{
     .main .content .card{
         display: block;
     }
-    footer{
-        padding: 30px;
-    }
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    color: #edf0f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #24252a;
+}
+footer p:nth-child(1) {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2) {
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social {
+    display: flex;
+}
+.social i {
+    background: none;
+}
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    color: white;
+    border-radius: 50%;
+    margin: 22px 10px;
+    text-decoration: none;
+}
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.end {
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
 }
