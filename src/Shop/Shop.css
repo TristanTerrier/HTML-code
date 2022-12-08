@@ -6,8 +6,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
+body {
+    background-color: #24252a;
+}
+
 li, .nav_link, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -158,9 +161,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.cards .card .card-body p{
-    margin-top: -10px;
-}
+
 /* Fin de toutes les cartes */
 
 /* Video de présentation */
@@ -187,6 +188,7 @@ footer {
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
+  border-top: 5px solid #f9004d;
 }
 footer .social-media{
   display: flex;
