@@ -8,11 +8,15 @@
     padding: 0;
     
 }
-li, a, button {
+li, .nav_link, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
+    text-decoration: none;
+}
+a {
+    color: white;
     text-decoration: none;
 }
 header {
@@ -20,7 +24,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 5%;
-    border-bottom:solid 5px #0088a9;
+    border-bottom:solid 5px #f9004d;
     background-color: #24252a;
 }
 .logo {
@@ -39,20 +43,24 @@ header {
     transition: all 0.3s ease 0s;
 }
 .nav_links li a:hover {
-    color: #0088a9
+    color: #f9004d;
 }
 .cta button{
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    color: white;
+    background-color: #f9004d;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 button:hover {
-    background-color: rgba(0,136,169,0.8);
+    background-color: transparent;
+    border: 2px solid #f9004d;
 }
+
+/* Fin Header */
 
 /* Tête de Page */
 
