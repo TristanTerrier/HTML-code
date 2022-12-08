@@ -6,7 +6,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+}
+body {
+    background: radial-gradient(#777,#222);
 }
 li, .nav_link, button {
     font-family: "Montserrat", sans-serif;
