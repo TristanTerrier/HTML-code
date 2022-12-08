@@ -15,6 +15,10 @@ li, .nav_link, button {
     color: #edf0f1;
     text-decoration: none;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 header {
     display: flex;
     justify-content: flex-end;
