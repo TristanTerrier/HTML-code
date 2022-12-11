@@ -201,6 +201,9 @@ footer .social-media p{
   width: 30px;
   cursor:pointer;
 }
+i {
+    color: #f9004d;
+}
 /* Fin du pied de page */
 
 @media screen and (max-width: 640px){
