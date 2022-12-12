@@ -41,6 +41,11 @@ Sprint #2
 4/
 
 - Personal feedback of Tristan :
+
+At the beginning, the sprint#1 was a dicovery of the subject and the language, so we didn't have really thought about a plan to work that is why we weren’t effective to work. But, for the second sprint, we made a good to do list and the team and I were running different parts of the project, we achieved many things in less time.
+In the first part, I was a little bit confused because I was in a discovery period, the way of working, the code language, the new country. All of that made me confused and I needed an adaptation time. With time, the confusion was gone and I felt better and I felt it in my work because I was much more productive.
+We can improve our level in english and on the html/css code, to know more things. 
+I think if we remade the project, I don't change a lot of things, maybe the page "DangerInWeb" to make more pretty the page otherwise not, I'm proud of our website and what we made.
     
 
 - Personal feedback of Florian :
@@ -53,4 +58,6 @@ I think that we would have more improved the fact of working a little earlier to
 
 What we don’t do again if we had to do it again is not translate the site directment and write it in French. Otherwise I think that for the rest we know how to get by 
 
-- Personal feedback of Romain
+- Personal feedback of Romain : 
+
+During the first 2 sprints I found that our team shared the work well, the tasks were equitably distributed between each person, the project was on the whole what can be improved is our English and to finish what I won’t do if I had to start again it would be to not work enough.
