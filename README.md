@@ -43,6 +43,14 @@ Sprint #2
 - Personal feedback of Tristan :
     
 
-- Personal feedback of Florian
+- Personal feedback of Florian :
+
+First of all, I found a good cohesion in the epic. We managed to share this work equitably . We all started the same way because nobody did html and css. So we struggled in the same place and we were able to help each other 
+
+I felt useful because in the project I worked a lot . Being a beginner for the team, we’ve had a lot of late nights. It was a complicated project because we tried to follow the level of the group which was therefore more experimenting 
+
+I think that we would have more improved the fact of working a little earlier to finish earlier because in the evening we happen to finish at 4am or even doing sleepless nights
+
+What we don’t do again if we had to do it again is not translate the site directment and write it in French. Otherwise I think that for the rest we know how to get by 
 
 - Personal feedback of Romain
